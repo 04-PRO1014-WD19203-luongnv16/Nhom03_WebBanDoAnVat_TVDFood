@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.8vw;
+}
+
+.boxcenter {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.bm {
+    margin-bottom: 20px;
+}
+
+.demo {
+    background-color: rgb(198, 219, 237);
+    min-height: 100px;
+}
+
+.header {
+    background-color: rgb(237, 110, 14);
+    border: 1px solid rgb(17, 7, 4);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.header h1 {
+    margin: 10px 20px;
+    font-size: 2vw;
+}
+
+.menu {
+    background-color: rgb(14, 14, 14);
+    color: #ccc;
+    border-radius: 5px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+
+}
+
+.menu a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    color: aliceblue;
+    font-size: 1vw;
+}
+
+.boxtrai {
+    float: left;
+    width: 74%;
+}
+
+.boxphai {
+    float: left;
+    width: 24%;
+}
+
+.footer {
+    background-color: rgb(237, 110, 14);
+    font-size: 0.8vw;
+    border: 1px solid rgb(17, 7, 4);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.boxtitle {
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px 5px 0 0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.boxcontent {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    padding: 20px;
+}
+
+.boxcontent2 {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    min-height: 200px;
+}
+
+.boxfooter {
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 0 0 5px 5px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.banner {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.imgs {
+    height: 300px;
+}
+
+.boxsp {
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.boxsp a{
+    font-size: 1vw;
+    text-decoration: none;
+    color: #333;
+}
+
+.boxsp .img {
+    min-height: 200px;
+    text-align: center;
+}
+
+.img img {
+    height: 140px;
+}
+
+/* from tai khoan */
+.from_tk {
+    line-height: 150%;
+}
+
+.from_tk input[type="text"],
+.from_tk input[type="password"],
+.from_tk input[type="email"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.from_tk [type="submit"],
+.from_tk [type="reset"] {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    background-color: #fffdfd;
+    border-radius: 5px;
+}
+
+.from_tk [type="submit"]:hover {
+
+    background-color: #ccc;
+}
+
+.from_tk li a {
+    text-decoration: none;
+}
+
+.from_tk li a:hover {
+    text-decoration: underline;
+}
+
+/* menu doc */
+.menudoc ul {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    background-color: #fffdfd;
+    border-bottom: 1px solid #ccc;
+}
+
+.menudoc ul li:hover {
+    background-color: #ccc;
+}
+
+.menudoc ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.searbox input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.top10 img {
+    width: 20%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.top10 a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.8vw;
+}
+
+.top10 a:hover {
+    text-decoration: underline;
+}
+
+/* ADMIN */
+
+.headeradmin {
+    background-color: rgb(135, 236, 202);
+    font-size: 1vw;
+    border: 1px solid rgb(21, 236, 179);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.headeradmin h1 {
+    font-size: 2vw;
+    margin: 10px 20px;
+}
+
+.frmtitle {
+    background-color: rgb(87, 224, 179);
+    border: 1px solid rgb(48, 186, 150);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.frmtitle h1 {
+    margin: 10px;
+}
+
+.frmcontent {
+    margin-bottom: 10px;
+}
+
+.frmcontent input[type="text"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.frmcontent button {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    background-color: #fffdfd;
+    border-radius: 5px;
+}
+
+.frmcontent button:hover {
+    background-color: #ccc;
+}
+
+/* Danh sach admin */
+.frmcontent table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmcontent table th {
+    padding: 20px;
+    background-color: #ccc;
+    
+}
+
+.frmcontent table td{
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+.spct{
+    text-align: center;
+}
+.thongbao{
+    color: red;
+}
+.giohang{
+    text-align: center;
+}
