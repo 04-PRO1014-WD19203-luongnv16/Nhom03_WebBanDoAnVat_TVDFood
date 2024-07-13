@@ -16,7 +16,7 @@ switch ($act) {
         if(isset($_POST['themsp'])&&($_POST['themsp'])){
             $tensp=$_POST['tensp'];
             $gia=$_POST['gia'];
-            $dungluong=$_POST['dungluong'];
+          
             $soluong=$_POST['soluong'];
             $mota=$_POST['mota'];
             $iddm=$_POST['iddm'];
